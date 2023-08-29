@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 1rem;
+
+    .wrapper-1 {
+        border: 1px solid black;
+        height: calc(100vh - 40vh);
+    }
+
+    .wrapper-2 {
+        border: 1px solid black;
+        height: calc(100vh - 60vh);
+    }
+
+}
+
+
