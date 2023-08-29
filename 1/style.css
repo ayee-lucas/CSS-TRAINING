@@ -3,8 +3,12 @@
   padding: 0;
 }
 
-main {
+body {
+  width: 100%;
   min-height: 100svh;
+}
+
+main {
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem;
@@ -12,9 +16,22 @@ main {
 }
 main .wrapper-1 {
   border: 1px solid black;
-  height: 60vh;
+  height: 35vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
 }
 main .wrapper-2 {
   border: 1px solid black;
-  height: 40vh;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.box {
+  margin: 10px;
+  min-height: 90%;
 }/*# sourceMappingURL=style.css.map */
