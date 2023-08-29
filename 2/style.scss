@@ -15,14 +15,12 @@ body {
   width: 100%;
 }
 
-main {
-  nav {
-    position: sticky;
-    top: 0;
-    inset-inline: 0;
-    height: 40px;
-    @include border-re;
-  }
+nav {
+  position: sticky;
+  top: 0;
+  inset-inline: 0;
+  height: 40px;
+  @include border-re;
 }
 
 .wrapper {

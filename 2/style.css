@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 
-main nav {
+nav {
   position: sticky;
   top: 0;
   inset-inline: 0;
