@@ -12,13 +12,22 @@ body {
   display: grid;
   place-content: center;
 }
-body div {
+body h1 {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  font-size: 40px;
+}
+body section {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
+  width: 50vh;
 }
-body div a {
+body section a {
   all: unset;
+  width: 100%;
   padding: 0.5rem 1rem;
   border: 1px solid white;
   border-radius: 5px;
@@ -26,7 +35,7 @@ body div a {
   cursor: pointer;
   transition: all 0.5s;
 }
-body div a:hover {
+body section a:hover {
   background-color: white;
   transform: translateY(-5px);
   color: black;
