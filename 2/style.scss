@@ -21,6 +21,8 @@ nav {
   inset-inline: 0;
   height: 40px;
   @include border-re;
+  border: 0;
+  border-bottom: 1px solid black;
 }
 
 .wrapper {
